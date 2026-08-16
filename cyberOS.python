@@ -1,0 +1,49 @@
+import time
+
+ram = "16777216kb"
+cpu = "intel core PENTIUM silver"
+
+
+print("please wait for starting os....")
+time.sleep(3)
+print("ram =" + ram)
+time.sleep(2)
+print("cpu =" + cpu)
+time.sleep(1)
+print("loading...")
+time.sleep(4)
+print("welcome to cyber os!")
+print("cyber os givin to you by nolan garland")
+time.sleep(2)
+password = input("please enter password: ")
+if password == "imahacker":
+  print("password accepted")
+else:
+  print("password denied")
+
+while True:
+  enter = input(">>> ")
+  if enter == "off" or enter == "stop":
+    print("shutting down...")
+    time.sleep(3)
+    print("goodbye")
+    break
+  elif enter == "reverse shell":
+    print("here is a bunch of rev shells https://github.com/nicholasaleks/reverse-shells")
+  elif enter == "rat":
+    print("https://github.com/nicholasaleks/reverse-shells")
+  elif enter == "ddos attack" or enter == "distributed denial of service":
+      print("sudo hping3 -1 --flood ip address (linux)")
+  elif enter == "help":
+    print("what do you need help with?")
+    print("its better if you find it online")
+  elif enter == "nmap":
+    print("https://www.youtube.com/watch?v=4t4kBkMsDbQ")
+  elif enter == "hi":
+    print("hello")
+  elif enter == "hello":
+    print("hi")
+  elif enter ++ "password cracking":
+    print("https://www.youtube.com/watch?v=z4_oqTZJqCo")
+  else:
+    print("please use browser")
